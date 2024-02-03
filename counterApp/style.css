@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#value{
+    width: 130px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    align-content: center;
+}
+.flexContainer{
+    display: flex;
+    gap: 20px;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+}
+.container h1{
+    text-align: center;
+    /* align-items: center;
+    justify-items: center; */
+    /* border: 2px solid black; */
+}
